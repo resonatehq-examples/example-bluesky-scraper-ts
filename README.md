@@ -54,7 +54,7 @@ brew install resonatehq/tap/resonate
 Clone the repository
 
 ```bash
-git clone https://github.com/resonatehq-examples/resonate-bluesky-scraper.git
+git clone https://github.com/resonatehq-examples/example-bluesky-scraper-ts.git
 ```
 
 Install dependencies
