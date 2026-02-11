@@ -1,6 +1,8 @@
+![example bluesky scraper banner](./assets/bsky-scraper.png)
+
 # Resonate Bluesky Scraper
 
-A *Bluesky Scraper* powered by the Resonate TypeScript SDK. The scraper recursively fetches user profiles and their followers from the Bluesky social network.
+A _Bluesky Scraper_ powered by the Resonate TypeScript SDK. The scraper recursively fetches user profiles and their followers from the Bluesky social network.
 
 ## Behind the Scenes
 
