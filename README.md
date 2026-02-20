@@ -103,3 +103,9 @@ View all promises:
 ```bash
 resonate promises search "*"
 ```
+
+## Learn More
+
+- [Resonate Documentation](https://docs.resonatehq.io)
+- [Detached Execution Pattern](https://docs.resonatehq.io/concepts/detached)
+- [TypeScript SDK Guide](https://docs.resonatehq.io/develop/typescript)
