@@ -31,7 +31,6 @@ export function* scrape(
           scrape,
           follower.did,
           depth - 1,
-          context.options({ id: follower.did }),
         );
       }
 

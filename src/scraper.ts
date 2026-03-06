@@ -29,12 +29,7 @@ export function* scrape(
       });
       // Schedule scrapes for this page's followers
       for (const follower of page.followers) {
-        yield* context.detached(
-          scrape,
-          follower.did,
-          depth - 1,
-          context.options({ id: follower.did }),
-        );
+        yield* context.detached(scrape, follower.did, depth - 1);
       }
       // advance
       cursor = page.cursor;
