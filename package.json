@@ -8,7 +8,7 @@
     "dev": "tsx src/index.ts"
   },
   "dependencies": {
-    "@resonatehq/sdk": "^0.9.6",
+    "@resonatehq/sdk": "^0.10.0",
     "@atproto/api": "^0.13.0",
     "better-sqlite3": "^11.0.0"
   },
