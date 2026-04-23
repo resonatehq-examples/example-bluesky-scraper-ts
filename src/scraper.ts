@@ -24,7 +24,7 @@ export function* scrape(
     let cursor: string | undefined = undefined;
     do {
       // Fetch one page of followers
-      const page: FollowersPage = yield* context.run(async () => {
+      const page: FollowersPage = yield* context.run(async (_ctx: Context) => {
         return await getFollowersPage(profile.did, cursor);
       });
       // Schedule scrapes for this page's followers
